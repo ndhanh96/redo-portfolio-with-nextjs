@@ -4,28 +4,8 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className='grid h-screen place-items-center bg-cyan-100'>
-      <div className='grid grid-cols-2 w-1/2 px-6 py-8 bg-cyan-400 rounded-2xl'>
-        <div id='navbar' className=' col-span-full '>
-          <div id='navbar' className='flex justify-between my-1'>
-            <div id='logo'>LOGO</div>
-            <div className='space-x-2'>
-              <button className='p-2 bg-yellow-500 text-center uppercase rounded-md'>
-                home
-              </button>
-              <button className='p-2 bg-yellow-500 text-center uppercase rounded-md'>
-                about
-              </button>
-              <button className='p-2 bg-yellow-500 text-center uppercase rounded-md'>
-                project
-              </button>
-              <button className='p-2 bg-yellow-500 text-center uppercase rounded-md'>
-                contact
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className='space-y-1'>
+    <>
+      <div className='space-y-1'>
           <h1 className='text-2xl py-1 font-semibold tracking-wide text-gray-700'>
             welcome to my newly created portfolio
           </h1>
@@ -51,7 +31,6 @@ export default function Home() {
             ></Image>
           </div>
         </div>
-      </div>
-    </div>
+    </>
   );
 }
